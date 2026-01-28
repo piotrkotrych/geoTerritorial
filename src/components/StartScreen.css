@@ -1,0 +1,146 @@
+.start-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(10, 25, 47, 0.98);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
+
+.start-modal {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  border-radius: 20px;
+  padding: 3rem;
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(100, 255, 218, 0.2);
+}
+
+.start-header {
+  margin-bottom: 2rem;
+}
+
+.game-title {
+  font-size: 3rem;
+  margin: 0 0 0.5rem 0;
+  letter-spacing: -1px;
+}
+
+.geo {
+  color: #64ffda;
+  font-weight: 300;
+}
+
+.territorial {
+  color: #ccd6f6;
+  font-weight: 700;
+}
+
+.game-subtitle {
+  color: #8892b0;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.game-rules {
+  text-align: left;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+}
+
+.game-rules h3 {
+  color: #64ffda;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0 0 1rem 0;
+}
+
+.game-rules ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem 0;
+}
+
+.game-rules li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 0;
+  color: #ccd6f6;
+  font-size: 0.95rem;
+}
+
+.rule-icon {
+  font-size: 1.2rem;
+}
+
+.penalties-info {
+  padding-top: 1rem;
+  border-top: 1px solid rgba(100, 255, 218, 0.1);
+}
+
+.penalties-info h4 {
+  color: #8892b0;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 0 0.75rem 0;
+}
+
+.penalty-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4rem 0;
+}
+
+.penalty-type {
+  font-size: 0.85rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+}
+
+.penalty-type.wrong {
+  background: rgba(255, 107, 107, 0.2);
+  color: #ff6b6b;
+}
+
+.penalty-type.skip {
+  background: rgba(255, 217, 61, 0.2);
+  color: #ffd93d;
+}
+
+.penalty-cost {
+  color: #8892b0;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.start-btn {
+  width: 100%;
+  padding: 1.25rem 2rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #64ffda 0%, #4ecdc4 100%);
+  color: #0a192f;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.start-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(100, 255, 218, 0.4);
+}
