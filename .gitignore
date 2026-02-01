@@ -22,3 +22,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+GAME_PLAN.md
+.env
+.env.*.local
+.env.local
+.env.*.development.local
+.env.*.test.local
+.env.*.production.local 
