@@ -30,3 +30,4 @@ GAME_PLAN.md
 .env.*.development.local
 .env.*.test.local
 .env.*.production.local 
+.github/copilot-instructions.md
